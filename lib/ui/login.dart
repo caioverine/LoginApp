@@ -12,7 +12,7 @@ class LoginState extends State<Login> {
 
   final TextEditingController _userController = new TextEditingController();
   final TextEditingController _passwordController = new TextEditingController();
-  String _welcomeMessage;
+  String _welcomeMessage = '';
 
   @override
   Widget build(BuildContext context) {
